@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  user-service:
+    build:
+      context: ./user-service
+
+  auth-service:
+    build:
+      context: ./auth-service
+
+  web-service:
+    build:
+      context: ./web-service
